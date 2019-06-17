@@ -1,0 +1,59 @@
+.fruits {
+  width: 40px;
+  height: 40px;
+  cursor: move;
+  position: absolute;
+}
+.images {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.trash-holder {
+  bottom: 0;
+  right: 50px;
+  font-size: 8.5em;
+  border: 3px solid red;
+  padding: 3px 20px;
+}
+
+.game-zone {
+margin: 10px auto;
+  height: 500px;
+  width: 750px;
+  position: relative;
+  border: 1px solid black;
+}
+body{
+  background-color:rgb(111, 111, 235)
+}
+.my-btn{
+  background-color:green;
+  color: white;
+
+}
+.my-btn-2{
+  background-color:red;
+  color: white;
+
+}
+
+#score{
+  height: 150px;
+  width: 150px;
+  border:  1px solid black;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left: 35px;
+  font-size: 2.5em;
+  text-align: center;
+  align-items: center;
+}
+
+.drag-area{
+  height: 480px;
+}
